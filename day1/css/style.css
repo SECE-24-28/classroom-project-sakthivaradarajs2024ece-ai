@@ -3,22 +3,36 @@ p{
 }
 .para{
     color: rgb(255, 94, 0);
+    font-size: auto;
+    font-weight: auto;
+ font-family: "Nabla", system-ui;
+    font-style: italic;
+    text-align: right;
+    
 }
 div{
-    height: 150%;
-    width: 80%;
-    border-radius: 500px;
+    height: auto;
+    width: 30%;
+    border-radius: 55px;
     padding: 50px;
     margin:5px 10px 15px 25px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE4Imtwk1zeNexsjoki_6JKF-5hHqlU-jDiQ&s);
-    background-size: cover;
+    background-color: rgb(21, 206, 190);
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 div:hover{
-    background-color: rgb(240, 217, 1);
+    
+  background-image: url(https://i.ytimg.com/vi/U1bYhqi1Kco/hqdefault.jpg);
+    box-shadow:15px 10px 15px 10px rgb(3, 3, 36);
 }
 .para-two{
     margin:5px; 
     padding:5px;
+}
+
+img{
+    filter:drop-shadow(15px 15px 15px rgb(218, 14, 3));
+    height: 200px;
+    width: 400PX;
 }
