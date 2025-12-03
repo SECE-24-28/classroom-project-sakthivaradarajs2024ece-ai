@@ -1,5 +1,5 @@
 p{
-    color: rgb(113, 4, 95);
+    color: rgb(229, 186, 222);
 }
 .para{
     color: rgb(255, 94, 0);
@@ -35,4 +35,28 @@ img{
     filter:drop-shadow(15px 15px 15px rgb(218, 14, 3));
     height: 200px;
     width: 400PX;
+}
+main{
+    background-color: chocolate;
+    height: auto;
+    width: 650px;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    animation-name: mainanimation;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    gap: 30px;
+
+}
+@keyframes mainanimation {
+    0%{background-color: rgb(90, 210, 210);}
+    20%{background-color: rgb(101, 65, 19);}
+    40%{background-color: rgb(14, 28, 136);}
+    60%{background-color: rgb(16, 51, 82);}
+    80%{background-color: rgb(110, 74, 21);}
+    100%{background-color: black;}
+    
 }
