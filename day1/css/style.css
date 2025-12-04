@@ -60,3 +60,8 @@ main{
     100%{background-color: black;}
     
 }
+@media(max-width:640px){
+    main{
+        display: block;
+    }
+}
