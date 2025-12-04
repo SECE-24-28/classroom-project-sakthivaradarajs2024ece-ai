@@ -41,6 +41,6 @@ function marks(){
         console.log("pass");
     }
     else{
-        console.log("fails");
+        console.log("fails")
     }
 }
