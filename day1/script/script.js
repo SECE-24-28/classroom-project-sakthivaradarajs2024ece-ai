@@ -1,4 +1,4 @@
 function myfunction(){
-    console.log("button clicked");
-    
+    let name=document.getElementById('name').value;
+    console.log(name);
 }
